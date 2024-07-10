@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background-color: #ff6b6b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#showcase {
+    background: url('bolos.jpg') no-repeat center center/cover;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#showcase h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+#showcase p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.features {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.feature-box {
+    width: 30%;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.feature-box img {
+    width: 100%;
+    border-radius: 5px;
+}
+.cta {
+    background-color: #ff6b6b;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+.cta a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.cta a:hover {
+    background-color: #fff;
+    color: #ff6b6b;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
